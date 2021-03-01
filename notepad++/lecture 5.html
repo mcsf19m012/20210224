@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head><title> LECTURE 5 </title></head>
+	
+	<body>
+		<form>
+			<fieldset>
+				<legend><strong>Register your information</strong></legend>
+				<label for="fname"> First Name</label>
+			<input type="text" id="fname" name="fname"> 
+			<br><br>
+			<label for="lname"> Last Name</label>
+			<input type="text" id="lname" name="lname">
+			<br><br>
+			<label for="dob"> Date of Birth</label>
+			<input type="date" id="dob" name="dob"> 
+			<br><br>
+			<label for="email"> Email</label>
+			<input type="email" id="email" name="email"> 
+			<br><br>
+			<label for="f1"> Select your file</label>
+			<input type="file" id="f1" name="f1"> 
+			<br><br>
+			<label for="age"> Enter you age</label>
+			<input type="number" id="age" name="age" min="1" max="100"> 
+			<br><br>
+			<label for="age"> Enter your age</label>
+			<input type="range" id="fname" name="fname"> 
+			<br><br>
+			<label for="web"> Enter your web site address</label>
+			<input type="url" id="web" name="web"> 
+			<br><br>
+			<!--now use radio button  name field should be same in both case-->
+			<p>Enter your gender:</p>
+			<input type="radio" id="male"name="gender" value="male">
+			<lable for="female">Female</label>
+			<input type="radio" id="male"name="gender" value="female">
+			<lable for="male">Female</label>
+			<br><br>
+			<!--now use check box to add multiple option-->
+           <p>Enter your Qualification:</p>
+			<input type="checkbox" id="matric"name="chk1" value="matric">
+			<lable for="matric">Matric</label>
+			<input type="checkbox" id="fa"name="chk1" value="fa">
+			<lable for="fa">FA</label>
+			<input type="checkbox" id="ba"name="chk1" value="ba">
+			<lable for="ba">BA</label>
+			<br><br>
+			<!--now we add drop down menu(we use select tag-->
+			<p>Select your City</p>
+			<select name="cities">
+				<option value="lahore">Lahore</option>
+				<option value="karachi">Karachi</option>
+				<option value="islamabad">Islamabad</option>
+			</select>
+			<br><br>
+			<!--Now we add password field-->
+			<label for="pwd"> Enter your Password</label>
+			<input type="password" id="pwd" name="pwd"> 
+			<!--Now we add color field-->
+			<label for="clr"> Select Color</label>
+			<input type="color" id="clr" name="clr"> 
+			<!--NOW TO ADD SAVE BUTTON-->
+			<br><br>
+			<input type="submit" value="Save">
+			<input type="reset" value="Reset">	
+			</fieldset>
+			
+		</form>
+	</body>
+</html> 
